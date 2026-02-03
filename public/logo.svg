@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nest/Basket Shape -->
+  <path d="M24 4C13.5 4 5 12.5 5 23C5 33.5 13.5 42 24 42C34.5 42 43 33.5 43 23C43 12.5 34.5 4 24 4Z" fill="#FDE9D4"/>
+  <path d="M24 8C15.7 8 9 14.7 9 23C9 31.3 15.7 38 24 38C32.3 38 39 31.3 39 23C39 14.7 32.3 8 24 8Z" fill="#3BB77E"/>
+  
+  <!-- Leaf/Sprout -->
+  <path d="M24 14C20 14 17 17 17 21C17 25 20 28 24 28C28 28 31 25 31 21C31 17 28 14 24 14Z" fill="#DEF9EC"/>
+  <path d="M24 16L24 26M21 19C23 17 25 17 27 19" stroke="#253D4E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Shopping Basket Lines -->
+  <path d="M14 32H34" stroke="#253D4E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 36H32" stroke="#253D4E" stroke-width="2" stroke-linecap="round"/>
+</svg>
