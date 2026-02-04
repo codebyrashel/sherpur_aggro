@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E Commerce Platform
 
-## Getting Started
+A full stack e commerce project built for a paid client, designed with scalability, maintainability, and real world production patterns in mind. The project is structured using a separated frontend and backend architecture, allowing independent development, deployment, and future expansion as business requirements evolve.
 
-First, run the development server:
+The application focuses on modern web performance, clean UI, and a flexible backend that can grow as features are added. The technology stack may evolve over time based on project needs, performance considerations, and client requirements.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `Frontend`
+- `Next.js`
+- `Shadcn UI`
+- `TypeScript`
+- `Tailwind CSS`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend
+- Node.js
+- API built for Next.js compatibility
+- Database MongoDB
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Other Tools
 
-## Learn More
+- Modern authentication patterns
+- Environment based configuration
+- Modular project architecture
 
-To learn more about Next.js, take a look at the following resources:
+### Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Modern and responsive e commerce user interface
+Component driven UI using shadcn
+Scalable backend architecture with MongoDB
+Clear separation between frontend and backend repositories
+Prepared for future integrations such as payments, admin dashboards, analytics, and third party services
+Clean and maintainable codebase suitable for long term development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Project Structure
 
-## Deploy on Vercel
+This project uses two separate repositories.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Frontend repository
+Handles the user interface, routing, UI components, and client side logic using Next.js and shadcn.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Backend repository
+Handles API logic, database operations, authentication, and business rules using MongoDB as the primary data store.
+
+This separation allows the frontend and backend to scale independently and makes the project easier to maintain in a real production environment.
+
+## The Process
+
+This project was approached as a real world client solution rather than a learning demo. The first step was defining a clean architecture with separate frontend and backend repositories to avoid tight coupling and allow future scalability.
+
+The frontend was built using Next.js for performance, SEO benefits, and modern routing patterns. Shadcn was chosen to ensure consistent, accessible, and reusable UI components while maintaining full control over styling.
+
+On the backend side, MongoDB was selected for its flexibility and scalability, making it well suited for evolving e commerce data such as products, users, orders, and transactions. The backend was structured in a modular way to support future features without major refactoring.
+
+Throughout development, emphasis was placed on clean code, predictable data flow, and maintainable project structure rather than quick shortcuts. The tech stack is intentionally flexible and may be updated as the project grows and new requirements are introduced.
+
+The backend API will be available on the configured local port.
+
+## Goals and Focus
+
+Building a real world e commerce architecture
+Using Next.js and shadcn in a production style workflow
+Designing a scalable backend with MongoDB
+Maintaining clean separation of concerns between frontend and backend
+Preparing the project for future feature expansion and deployment
+
+This project is actively developed as a client focused solution and reflects practical engineering decisions rather than tutorial based shortcuts. It is designed to grow, adapt, and remain maintainable over time.
